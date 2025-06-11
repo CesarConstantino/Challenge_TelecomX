@@ -57,14 +57,19 @@ Análisis estadístico y gráfico de correlación
 Informe automatizado en Markdown dentro del mismo notebook
 
 ⚠️ Posibles problemas y soluciones
-Problema	Solución sugerida
-KeyError: 'Churn' o columnas no encontradas	Verifica el nombre real de la columna tras limpiar o hacer dummies
-Gráficos no se muestran en Colab	Asegúrate de tener %matplotlib inline y usar plt.show()
-Error al leer el JSON	Verifica que el archivo esté en /content/ en Colab o use rutas correctas
-Correlaciones vacías	Asegúrate de tener solo variables numéricas al usar .corr()
+
+| Problema                                      | Solución sugerida                                                          |
+| --------------------------------------------- | -------------------------------------------------------------------------- |
+| `KeyError: 'Churn'` o columnas no encontradas | Verifica el nombre real de la columna tras limpiar o hacer dummies         |
+| Gráficos no se muestran en Colab              | Asegúrate de tener `%matplotlib inline` y usar `plt.show()`                |
+| Error al leer el JSON                         | Verifica que el archivo esté en `/content/` en Colab o use rutas correctas |
+| Correlaciones vacías                          | Asegúrate de tener solo variables numéricas al usar `.corr()`              |
+
+
+
 
 📚 Créditos
-Este proyecto fue desarrollado por [Tu Nombre Aquí] como parte del challenge de análisis de datos de Telecom X.
+Este proyecto fue desarrollado por Cesar Constantino como parte del challenge de análisis de datos de Telecom X.
 
 📌 Contacto
 ¿Tienes dudas o sugerencias? Puedes escribirme a través de https://www.linkedin.com/in/cesarconstantino/.
